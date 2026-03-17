@@ -15793,6 +15793,30 @@ fieldset:disabled .btn {
     content: "\f4d3";
 }
 
+.custom-title-box {
+    background: #0b0b0b;
+    padding: 25px;
+    border-left: 4px solid #007bff;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.custom-title-box h5.quote {
+    color: #ffffff;
+    font-weight: 700;
+    font-style: italic;
+    border: none;
+    padding: 0;
+}
+
+.breadcrumbs-custom-path {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 10px 25px;
+    border-radius: 50px;
+}
+
 .fa-pills:before {
     content: "\f484";
 }
